@@ -1,7 +1,7 @@
 'use client';
 import { useSheepBubble } from '@/app/hooks/useSheepBubble';
 
-export default function Screen1({ onNext, onBack }: { onNext: () => void; onBack: () => void }) {
+export default function Screen1({ onNext, onBack }: { onNext: () => void; onBack?: () => void }) {
   useSheepBubble('sheep-1', 'bubble-1');
   return (
     <>
